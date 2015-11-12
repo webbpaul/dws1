@@ -97,7 +97,7 @@ ul {
  	margin-right: auto;
  	margin-left: auto;
 	width: 70%;
-	background-color: #ECEBF0;
+	background-color: #FFFFFF;
 	border-radius: .2%;
 	box-shadow: 0px 0px 20px 5px #61635F;
 	overflow: auto;
@@ -107,6 +107,7 @@ body {
 	background-color: #484A47;
 	background-image: url("../images/pattern.png");
 	background-repeat: repeat;
+	background-position: top left;
 	margin: 0%;
 	padding: 0%;
 }
@@ -121,4 +122,11 @@ body {
 	width: 30%;
 	float: left;
 	margin: 0% 0% .5% 2.5%;
+	border: 1px solid #000;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,b8b89f+100,7db9e8+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #b8b89f 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#b8b89f 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#b8b89f 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
