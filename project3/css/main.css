@@ -23,8 +23,8 @@ h2, h3 {
 }
 
 p {
-	margin: auto;
-	
+	margin-left: auto;
+	margin-right: auto;
 	text-indent: 2.5%;
 	font: normal .9em sans-serif;
 	line-height: 110%;
@@ -32,14 +32,15 @@ p {
 
 #intropara {
 	width: 62.5%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-indent: 2.5%;
 	font: normal .9em sans-serif;
 	line-height: 110%;
 }
 
 #note {
-	margin: 25px auto;
+	margin: 2.5% auto;
 	width: 62.5%;
 	border: 1px solid;
 	padding: 15px;
@@ -118,19 +119,21 @@ body {
 	background-repeat: repeat;
 	background-position: top left;
 	margin: 0%;
-	padding: 0%;
+	padding: 0px;
 }
 
 #content {
 	width: 50%;
 	float: left;
 	margin: 0% .1% 0% 10%;
+	padding: 0px;
 }
 
 #images {
 	width: 30%;
 	float: left;
 	margin: 0% 0% .5% 2.5%;
+	padding: 0px;
 	border: 1px solid #000;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,b8b89f+100,7db9e8+100 */
 	background: #ffffff; /* Old browsers */
