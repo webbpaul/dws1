@@ -143,3 +143,30 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 
 }
+
+/* Local Hikes Table CSS */
+
+table {
+	margin: 0px auto;
+}
+
+table, th, td {
+	padding: 0px 20px 10px 5px
+	width: 400px;
+	font-size: .9em;
+	border: 1px solid #000;
+	background-color: #D3D3D3;
+}
+
+th {
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+td {
+	text-align: center;
+}
+
+td:hover {
+	background-color: #fff;
+}
