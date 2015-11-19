@@ -84,13 +84,13 @@ ul {
 	border-bottom: 1px solid #61635F;
 	padding: 0px;
 	margin: -1.5% 0% 2.5%;
-	padding: -10px 0px 10px;
+	padding: 0px 0px 10px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f7f7f7+100,7db9e8+100 */
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%, #7db9e8 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	
 
 }
 
@@ -140,8 +140,6 @@ body {
 	background: -moz-linear-gradient(top,  #ffffff 0%, #b8b89f 100%, #7db9e8 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #ffffff 0%,#b8b89f 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #ffffff 0%,#b8b89f 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-
 }
 
 /* Local Hikes Table CSS */
@@ -151,7 +149,7 @@ table {
 }
 
 table, th, td {
-	padding: 0px 20px 10px 5px
+	padding: 0px 20px 10px 5px;
 	width: 400px;
 	font-size: .9em;
 	border: 1px solid #000;
@@ -170,4 +168,33 @@ td {
 
 td:hover {
 	background-color: #fff;
+}
+
+
+/* Contact us form CSS */
+
+#contact {
+	width: 400px;
+	margin: 20px auto;
+	font-size: .9em;
+	color: #000;
+	border: 1px solid #000;
+	background-color: #d3d3d3;
+	
+}
+
+input:hover, :focus {
+	background-color: #d3d2d2;
+	border: 1px solid #000;
+}
+
+.title {
+	float: left;
+	width: 150px;
+	clear: left;
+}
+
+#submit {
+	text-align: right;
+	margin: 10px;
 }
